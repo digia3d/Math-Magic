@@ -1,0 +1,52 @@
+/* stylelint-disable no-missing-end-of-source-newline */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.calculator-cont {
+  display: grid;
+  height: 962px;
+  width: 50em;
+  margin: auto;
+}
+
+.result {
+  text-align: right;
+  color: white;
+  font-size: 3.5em;
+  margin: 0;
+  padding-top: 10vh;
+  padding-right: 10px;
+  background-color: rgb(136, 134, 149);
+  height: 20vh;
+}
+
+.results {
+  margin: 0;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  margin-top: 0;
+  height: 30vh;
+}
+
+span {
+  font-size: 2.5em;
+}
+
+.btn-opr,
+.btn-opr-right {
+  width: 25%;
+  border: 1px solid rgb(147, 145, 145);
+}
+
+.btn-opr-right {
+  background-color: rgb(246, 146, 53);
+}
+
+.btn-opr-zero {
+  width: 50%;
+}
