@@ -1,11 +1,14 @@
 import React from 'react';
+import './Calculator.css';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
   render() {
     return (
       <div className="calculator-cont">
-        <div className="result">0</div>
+        <div className="results">
+          <p className="result">0</p>
+        </div>
         <div className="button">
           <button className="btn-opr" type="button">AC</button>
           <button className="btn-opr" type="button">+/-</button>

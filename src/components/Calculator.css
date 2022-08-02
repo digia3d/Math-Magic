@@ -1,4 +1,39 @@
-.calculator {
+/* stylelint-disable no-missing-end-of-source-newline */
+.calculator-cont {
   display: grid;
-  grid-template-areas: 'header header header header';
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 1px solid black;
+  height: 60vh;
+}
+
+.result {
+  height: 6vh;
+  background-color: rgb(135, 134, 134);
+  text-align: right;
+  color: white;
+  font-size: 1.3em;
+  margin: 0;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+}
+
+.btn-opr,
+.btn-opr-right {
+  width: 25%;
+  height: 10vh;
+}
+
+.btn-opr-right {
+  background-color: rgb(247, 180, 87);
+}
+
+.btn-opr-zero {
+  width: 50%;
+  height: 10vh;
 }
