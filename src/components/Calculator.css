@@ -6,8 +6,9 @@
 
 .calculator-cont {
   display: grid;
-  border: 1px solid black;
   height: 962px;
+  width: 50em;
+  margin: auto;
 }
 
 .result {
@@ -30,7 +31,6 @@
   width: 100%;
   margin-top: 0;
   height: 30vh;
-  border: 1px solid rgb(147, 145, 145);
 }
 
 span {
@@ -40,6 +40,7 @@ span {
 .btn-opr,
 .btn-opr-right {
   width: 25%;
+  border: 1px solid rgb(147, 145, 145);
 }
 
 .btn-opr-right {
