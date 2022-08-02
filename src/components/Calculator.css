@@ -1,39 +1,51 @@
 /* stylelint-disable no-missing-end-of-source-newline */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .calculator-cont {
   display: grid;
-  margin-left: 30%;
-  margin-right: 30%;
   border: 1px solid black;
-  height: 60vh;
+  height: 962px;
 }
 
 .result {
-  height: 6vh;
-  background-color: rgb(135, 134, 134);
   text-align: right;
   color: white;
-  font-size: 1.3em;
+  font-size: 3.5em;
   margin: 0;
-  padding-top: 15px;
+  padding-top: 10vh;
   padding-right: 10px;
+  background-color: rgb(136, 134, 149);
+  height: 20vh;
+}
+
+.results {
+  margin: 0;
 }
 
 .button {
   display: flex;
   width: 100%;
+  margin-top: 0;
+  height: 30vh;
+  border: 1px solid rgb(147, 145, 145);
+}
+
+span {
+  font-size: 2.5em;
 }
 
 .btn-opr,
 .btn-opr-right {
   width: 25%;
-  height: 10vh;
 }
 
 .btn-opr-right {
-  background-color: rgb(247, 180, 87);
+  background-color: rgb(246, 146, 53);
 }
 
 .btn-opr-zero {
   width: 50%;
-  height: 10vh;
 }
