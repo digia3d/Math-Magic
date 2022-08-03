@@ -1,8 +1,20 @@
 import React from 'react';
 import './Calculator.css';
+import calculate from './logic/calculate';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.setState = {};
+    this.hendleClick = this.hendleClick.bind(this);
+  }
+
+  hendleClick(e) {
+    e.preventDefault();
+    this.setState((state) => calculate(state, e.target.span));
+  }
+
   render() {
     return (
       <div className="calculator-cont">
@@ -10,7 +22,7 @@ class Calculator extends React.Component {
           <p className="result">0</p>
         </div>
         <div className="button">
-          <button className="btn-opr" type="button"><span>AC</span></button>
+          <button className="btn-opr" type="button" onClick={this.hendleClick}><span>AC</span></button>
           <button className="btn-opr" type="button"><span>+/-</span></button>
           <button className="btn-opr" type="button"><span>%</span></button>
           <button className="btn-opr-right" type="button"><span>÷</span></button>
