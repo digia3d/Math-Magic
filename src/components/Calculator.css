@@ -18,15 +18,14 @@ body {
 
 .calculator-cont {
   margin: 50px auto;
-
 }
 
 .result {
-  width: calc(100% -2em);
+  width: calc(100%, -2em);
   text-align: right;
   color: white;
+  /* stylelint-disable-next-line */
   font-size: clamp(2.5vw, 1.5em, 5vw);
-  /*  stylelint-disable-line */
   padding: .8em 1em;
   background-color: rgb(136, 134, 149);
 }
@@ -42,8 +41,8 @@ body {
 
 button {
   padding: 1em 1.25em;
+  /* stylelint-disable-next-line */
   font-size: clamp(2vw, 1.5em, 4vw);
-  /*  stylelint-disable-line */
 }
 
 .btn-opr,
