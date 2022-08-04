@@ -4,9 +4,14 @@
   padding: 0;
 }
 
+.calculator {
+  display: grid;
+  width: 50em;
+  margin: auto;
+}
+
 .calculator-cont {
   display: grid;
-  height: 962px;
   width: 50em;
   margin: auto;
 }
@@ -30,7 +35,6 @@
   display: flex;
   width: 100%;
   margin-top: 0;
-  height: 30vh;
 }
 
 span {
@@ -39,8 +43,9 @@ span {
 
 .btn-opr,
 .btn-opr-right {
-  width: 25%;
+  width: 50%;
   border: 1px solid rgb(147, 145, 145);
+  height: 20vh;
 }
 
 .btn-opr-right {
@@ -48,5 +53,6 @@ span {
 }
 
 .btn-opr-zero {
-  width: 50%;
+  width: 100%;
+  height: 20vh;
 }
