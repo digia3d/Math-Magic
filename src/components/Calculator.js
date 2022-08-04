@@ -9,7 +9,7 @@ const Calculator = () => {
     operation: null,
   });
   const hendleClick = (e) => {
-    setState({ ...state, ...calculate(state, e.target.innerHTML) });
+    setState({ ...state, ...calculate(state, e.target.firstChild.textContent) });
   };
 
   return (
