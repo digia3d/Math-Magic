@@ -21,12 +21,11 @@ body {
 }
 
 .result {
-  width: calc(100%, -2em);
   text-align: right;
   color: white;
   /* stylelint-disable-next-line */
   font-size: clamp(2.5vw, 1.5em, 5vw);
-  padding: .8em 1em;
+  padding: 0.8em 1em;
   background-color: rgb(136, 134, 149);
 }
 
@@ -35,14 +34,14 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.button:last-child>button:not(:first-child) {
-  width: 100%;
-}
-
 button {
   padding: 1em 1.25em;
   /* stylelint-disable-next-line */
   font-size: clamp(2vw, 1.5em, 4vw);
+}
+
+.button:last-child > button:not(:first-child) {
+  width: 100%;
 }
 
 .btn-opr,
