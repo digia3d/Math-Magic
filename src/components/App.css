@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.meinLink {
+  text-decoration: none;
+  color: rgb(255, 77, 0);
+}
+
+h2 {
+  padding: 2rem 2rem 1rem 2rem;
+  font-size: 1.5em;
+}

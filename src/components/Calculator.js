@@ -16,6 +16,7 @@ const Calculator = () => {
   return (
     <>
       <Header />
+      <h2>Let us do some Maths!</h2>
       <div className="calculator-cont">
         <div className="results">
           <p className="result">
@@ -53,7 +54,6 @@ const Calculator = () => {
           <button className="btn-opr" type="button" onClick={hendleClick}><span>.</span></button>
           <button className="btn-opr-right" type="button" onClick={hendleClick}><span>=</span></button>
         </div>
-
       </div>
     </>
   );
