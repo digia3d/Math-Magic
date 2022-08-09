@@ -1,20 +1,17 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
+import Home from './components/Home';
+import Quote from './components/Quote';
 
-// eslint-disable-next-line react/prefer-stateless-function
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <div className="calculator">
-        <Calculator />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="Calculator" element={<Calculator />} />
+      <Route path="Quote" element={<Quote />} />
+    </Routes>
+  );
 }
 
 export default App;
