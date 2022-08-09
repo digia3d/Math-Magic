@@ -3,7 +3,7 @@
 If you are a fan of the math, then this site is for you. It is a single page application that allows you to make simple math calculations.
 
 ## Built With
-   -HTML
+   -JavaScript-React
    -CSS -React
 
 ## Getting Started

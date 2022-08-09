@@ -6,9 +6,9 @@ function Home() {
   return (
     <>
       <Header />
-      <section>
-        <h2>Welcome to our page!</h2>
-        <p>
+      <h2>Welcome to our page!</h2>
+      <section className="home-sec">
+        <p className="home-description">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           Earum ipsum tempore, ea soluta
           tenetur expedita dignissimos similique deleniti doloribus fugiat!
@@ -25,7 +25,7 @@ function Home() {
           culpa distinctio inventore perspiciatis sunt ipsam a
           tque.
         </p>
-        <p>
+        <p className="home-description">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum ipsum
           tempore, ea soluta
           tenetur expedita dignissimos

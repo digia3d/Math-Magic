@@ -6,15 +6,15 @@ function Quote() {
   return (
     <>
       <Header />
-      <section>
+      <div>
+        <h3>Welcome to our page!</h3>
+      </div>
+      <section className="descr">
         <div>
-          <h2>Welcome to our page!</h2>
-        </div>
-        <div>
-          <p>
+          <p className="quote">
             Mathmatics is not about numbers,eauations, computations,
             or algorithms: it is about understanding.
-            <span>-William Paul Thurston</span>
+            <span className="quspan">-William Paul Thurston</span>
           </p>
         </div>
       </section>

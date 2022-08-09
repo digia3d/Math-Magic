@@ -5,10 +5,10 @@
 }
 
 body {
-  width: 100%;
   height: 100vh;
   display: flex;
-  background-color: rgba(246, 213, 128, 0.894);
+  background-color: rgba(9, 6, 43, 0.894);
+  color: rgb(238, 233, 206);
 }
 
 .calculator {
@@ -16,13 +16,12 @@ body {
 }
 
 .calculator-cont {
-  margin: -74px 25px 0 312px;
+  margin: -79px 25px 0 312px;
   padding-left: 200px;
 }
 
 .results {
   display: flex;
-  max-width: 100%;
   margin-top: -1rem;
   min-height: 70px;
 }

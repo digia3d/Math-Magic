@@ -9,7 +9,7 @@ function Header() {
         style={{
           fontSize: '2.4rem',
           fontWeight: '600',
-          color: 'black',
+          color: '238, 233, 206',
           textAlign: 'left',
         }}
       >
