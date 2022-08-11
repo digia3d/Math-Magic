@@ -1,11 +1,8 @@
 import React from 'react';
 
-import Header from './Header';
-
 function Quote() {
   return (
     <>
-      <Header />
       <div>
         <h3>Welcome to our page!</h3>
       </div>

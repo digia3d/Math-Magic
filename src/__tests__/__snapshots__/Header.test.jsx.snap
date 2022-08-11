@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of Header test if Header is rendered 1`] = `
+<header
+  className="header"
+>
+  <h1
+    style={
+      Object {
+        "color": "238, 233, 206",
+        "fontSize": "2.4rem",
+        "fontWeight": "600",
+        "textAlign": "left",
+      }
+    }
+  >
+    Math Magician
+  </h1>
+  <nav
+    className="mein-links"
+  >
+    <a
+      className="meinLink"
+      href="#/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className="meinLink"
+      href="#/Calculator"
+      onClick={[Function]}
+    >
+      Calculator
+    </a>
+    <a
+      className="meinLink"
+      href="#/Quote"
+      onClick={[Function]}
+    >
+      Quote
+    </a>
+  </nav>
+</header>
+`;

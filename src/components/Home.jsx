@@ -1,11 +1,8 @@
 import React from 'react';
 
-import Header from './Header';
-
 function Home() {
   return (
     <>
-      <Header />
       <h2>Welcome to our page!</h2>
       <section className="home-sec">
         <p className="home-description">
