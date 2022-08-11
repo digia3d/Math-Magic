@@ -5,6 +5,8 @@ If you are a fan of the math, then this site is for you. It is a single page app
 ## Built With
    -JavaScript-React
    -CSS -React
+   
+## Netlify deployment LINK: [https://deploy-preview-8--spontaneous-blancmange-f98412.netlify.app/]
 
 ## Getting Started
 To get a local copy of this project, follow these simple steps:
