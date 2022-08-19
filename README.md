@@ -6,7 +6,7 @@ If you are a fan of the math, then this site is for you. It is a single page app
    -JavaScript-React
    -CSS -React
    
-## Netlify deployment LINK: [https://a3dmath.netlify.app/]
+## Netlify deployment LINK: [https://62f4ef01f82f810008a11c40--a3dmath.netlify.app/]
 
 ## Getting Started
 To get a local copy of this project, follow these simple steps:
